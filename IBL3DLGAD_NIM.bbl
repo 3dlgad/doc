@@ -1,0 +1,32 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Parker:1996dx}
+S.~I. Parker, et~al., {3-D: A New architecture for solid state radiation
+  detectors}, Nucl. Instrum. Meth. A395 (1997) 328--343.
+
+\bibitem{Pellegrini:2008zza}
+G.~Pellegrini, et~al., {First double-sided 3-D detectors fabricated at
+  CNM-IMB}, Nucl. Instrum. Meth. A592 (2008) 38--43.
+
+\bibitem{Sultan:2016vzg}
+D.~Sultan, et~al., {First Production of New Thin 3D Sensors for HL-LHC at FBK},
+  JINST 12~(01) (2017) C01022.
+
+\bibitem{Kramberger:2019ygz}
+G.~Kramberger, et~al., {Timing performance of small cell 3D silicon
+  detectors}\href {http://arxiv.org/abs/1901.02538} {\path{arXiv:1901.02538}}.
+
+\bibitem{kdetsim}
+G.~Kramberger, {KDetSim: a simple way to simulate detectors,
+  http://kdetsim.org}.
+
+\bibitem{delaTaille:2018qap}
+de~La~Taille, et~al., {ALTIROC0, a 20 pico-second time resolution ASIC for the
+  ATLAS High Granularity Timing Detector (HGTD)}, PoS TWEPP-17 (2018) 006.
+
+\end{thebibliography}
