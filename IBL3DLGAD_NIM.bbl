@@ -18,8 +18,9 @@ D.~Sultan, et~al., {First Production of New Thin 3D Sensors for HL-LHC at FBK},
   JINST 12~(01) (2017) C01022.
 
 \bibitem{Kramberger:2019ygz}
-G.~Kramberger, et~al., {Timing performance of small cell 3D silicon
-  detectors}\href {http://arxiv.org/abs/1901.02538} {\path{arXiv:1901.02538}}.
+G.~Kramberger, et~al., {Timing performance of small cell 3D silicon detectors}
+  (2019).
+\newblock \href {http://arxiv.org/abs/1901.02538} {\path{arXiv:1901.02538}}.
 
 \bibitem{kdetsim}
 G.~Kramberger, {KDetSim: a simple way to simulate detectors,

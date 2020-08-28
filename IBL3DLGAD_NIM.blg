@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: IBL3DLGAD_NIM.aux
+The style file: elsarticle-num.bst
+Database file #1: IBL3DLGAD_NIM.bib
+You're missing a field part---line 57 of file IBL3DLGAD_NIM.bib
+ :       doi            = 
+ :                        %"10.22323/1.313.0006",
+I'm skipping whatever remains of this entry
+You're missing a field part---line 117 of file IBL3DLGAD_NIM.bib
+ :       doi            = 
+ :                        %"10.1016/S0168-9002(97)00694-3",
+I'm skipping whatever remains of this entry
+You're missing a field part---line 175 of file IBL3DLGAD_NIM.bib
+ :       doi            = 
+ :                        %"10.1016/j.nima.2008.03.119",
+I'm skipping whatever remains of this entry
+You're missing a field part---line 241 of file IBL3DLGAD_NIM.bib
+ :       doi            = 
+ :                        %"10.1088/1748-0221/12/01/C01022",
+I'm skipping whatever remains of this entry
+You're missing a field part---line 357 of file IBL3DLGAD_NIM.bib
+ :       doi            = 
+ :                        %"10.1088/0960-1317/6/1/001"
+I'm skipping whatever remains of this entry
+You're missing a field part---line 371 of file IBL3DLGAD_NIM.bib
+ :       journal        = 
+ :                        %"J. Micromech. Microeng.",
+I'm skipping whatever remains of this entry
+Warning--empty journal in Kramberger:2019ygz
+Warning--empty journal in kdetsim
+Warning--empty year in kdetsim
+You've used 6 entries,
+            2952 wiz_defined-function locations,
+            711 strings with 6127 characters,
+and the built_in function-call counts, 1506 in all, are:
+= -- 135
+> -- 39
+< -- 0
++ -- 17
+- -- 11
+* -- 96
+:= -- 230
+add.period$ -- 7
+call.type$ -- 6
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 47
+empty$ -- 174
+format.name$ -- 16
+if$ -- 387
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 6
+newline$ -- 27
+num.names$ -- 6
+pop$ -- 30
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 106
+stack$ -- 0
+substring$ -- 63
+swap$ -- 7
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 10
+width$ -- 7
+write$ -- 54
+(There were 6 error messages)
