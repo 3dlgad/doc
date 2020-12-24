@@ -3,72 +3,89 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: IBL3DLGAD_NIM.aux
 The style file: elsarticle-num.bst
 Database file #1: IBL3DLGAD_NIM.bib
-You're missing a field part---line 57 of file IBL3DLGAD_NIM.bib
+Unbalanced braces---line 26 of file IBL3DLGAD_NIM.bib
+ : 
+ : }
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 38 of file IBL3DLGAD_NIM.bib
+ :       
+ :       %url           = "https://cds.cern.ch/record/2623663",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 50 of file IBL3DLGAD_NIM.bib
+ :       
+ :       %url           = "https://cds.cern.ch/record/2296612",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field part---line 91 of file IBL3DLGAD_NIM.bib
  :       doi            = 
  :                        %"10.22323/1.313.0006",
 I'm skipping whatever remains of this entry
-You're missing a field part---line 117 of file IBL3DLGAD_NIM.bib
+You're missing a field part---line 121 of file IBL3DLGAD_NIM.bib
  :       doi            = 
  :                        %"10.1016/S0168-9002(97)00694-3",
 I'm skipping whatever remains of this entry
-You're missing a field part---line 175 of file IBL3DLGAD_NIM.bib
+You're missing a field part---line 150 of file IBL3DLGAD_NIM.bib
  :       doi            = 
  :                        %"10.1016/j.nima.2008.03.119",
 I'm skipping whatever remains of this entry
-You're missing a field part---line 241 of file IBL3DLGAD_NIM.bib
+You're missing a field part---line 183 of file IBL3DLGAD_NIM.bib
  :       doi            = 
  :                        %"10.1088/1748-0221/12/01/C01022",
 I'm skipping whatever remains of this entry
-You're missing a field part---line 357 of file IBL3DLGAD_NIM.bib
+You're missing a field part---line 241 of file IBL3DLGAD_NIM.bib
  :       doi            = 
  :                        %"10.1088/0960-1317/6/1/001"
 I'm skipping whatever remains of this entry
-You're missing a field part---line 371 of file IBL3DLGAD_NIM.bib
+You're missing a field part---line 248 of file IBL3DLGAD_NIM.bib
  :       journal        = 
  :                        %"J. Micromech. Microeng.",
 I'm skipping whatever remains of this entry
+Warning--empty journal in 2012.04533
+Warning--empty year in 2012.04533
 Warning--empty journal in Kramberger:2019ygz
 Warning--empty journal in kdetsim
 Warning--empty year in kdetsim
-You've used 6 entries,
+You've used 11 entries,
             2952 wiz_defined-function locations,
-            711 strings with 6127 characters,
-and the built_in function-call counts, 1506 in all, are:
-= -- 135
-> -- 39
+            744 strings with 6925 characters,
+and the built_in function-call counts, 2758 in all, are:
+= -- 257
+> -- 68
 < -- 0
-+ -- 17
-- -- 11
-* -- 96
-:= -- 230
-add.period$ -- 7
-call.type$ -- 6
-change.case$ -- 6
++ -- 30
+- -- 19
+* -- 188
+:= -- 403
+add.period$ -- 14
+call.type$ -- 11
+change.case$ -- 11
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 47
-empty$ -- 174
-format.name$ -- 16
-if$ -- 387
+cite$ -- 16
+duplicate$ -- 84
+empty$ -- 323
+format.name$ -- 26
+if$ -- 719
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 6
-newline$ -- 27
-num.names$ -- 6
-pop$ -- 30
+int.to.str$ -- 11
+missing$ -- 11
+newline$ -- 44
+num.names$ -- 11
+pop$ -- 54
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 106
+skip$ -- 203
 stack$ -- 0
-substring$ -- 63
-swap$ -- 7
+substring$ -- 99
+swap$ -- 21
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 10
-width$ -- 7
-write$ -- 54
-(There were 6 error messages)
+warning$ -- 5
+while$ -- 17
+width$ -- 13
+write$ -- 99
+(There were 9 error messages)

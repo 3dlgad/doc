@@ -1,13 +1,40 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
+\bibitem{2012.04533}
+{P. J. Fox, S. Huang, J. Isaacson, X. Ju, and B. Nachman}, {Beyond 4D Tracking:
+  Using Cluster Shapes for Track Seeding}\href
+  {http://arxiv.org/abs/2012.04533} {\path{arXiv:2012.04533}}.
+
+\bibitem{Sadrozinski:2017qpv}
+H.~F. Sadrozinski, A.~Seiden, N.~Cartiglia, {4D tracking with ultra-fast
+  silicon detectors}, Rept. Prog. Phys. 81 (2018) 026101.
+\newblock \href {http://arxiv.org/abs/1704.08666} {\path{arXiv:1704.08666}},
+  \href {https://doi.org/10.1088/1361-6633/aa94d3}
+  {\path{doi:10.1088/1361-6633/aa94d3}}.
+
+\bibitem{CERN-LHCC-2017-027}
+{CMS Collaboration}, {Technical Proposal For A Mip Timing Detector In The Cms
+  Experiment Phase 2 Upgrade}, CERN-LHCC-2017-027 (Dec 2017).
+
+\bibitem{CERN-LHCC-2018-023}
+{ATLAS Collaboration}, {Technical Proposal: A High-Granularity Timing Detector
+  for the ATLAS Phase-II Upgrade}, CERN-LHCC-2018-023 (Jun 2018).
+
 \bibitem{Parker:1996dx}
 S.~I. Parker, et~al., {3-D: A New architecture for solid state radiation
   detectors}, Nucl. Instrum. Meth. A395 (1997) 328--343.
+
+\bibitem{Abbott:2018ikt}
+B.~Abbott, et~al., {Production and Integration of the ATLAS Insertable
+  B-Layer}, JINST 13~(05) (2018) T05008.
+\newblock \href {http://arxiv.org/abs/1803.00844} {\path{arXiv:1803.00844}},
+  \href {https://doi.org/10.1088/1748-0221/13/05/T05008}
+  {\path{doi:10.1088/1748-0221/13/05/T05008}}.
 
 \bibitem{Pellegrini:2008zza}
 G.~Pellegrini, et~al., {First double-sided 3-D detectors fabricated at

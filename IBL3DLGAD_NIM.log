@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  28 AUG 2020 13:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  23 DEC 2020 22:52
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **IBL3DLGAD_NIM.tex
 (./IBL3DLGAD_NIM.tex
@@ -113,6 +114,149 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen107
 \Gin@req@width=\dimen108
 )
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen109
+\ar@mcellbox=\box36
+\extrarowheight=\dimen110
+\NC@list=\toks18
+\extratabsurround=\skip45
+\backup@length=\skip46
+\ar@cellbox=\box37
+)
+\everycr=\toks19
+\minrowclearance=\skip47
+)
+\rownum=\count101
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen111
+\Hy@linkcounter=\count102
+\Hy@pagecounter=\count103
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count104
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count105
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen112
+\Fld@menulength=\count106
+\Field@Width=\dimen113
+\Fld@charsize=\dimen114
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count107
+\c@Item=\count108
+\c@Hfootnote=\count109
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count110
+\c@bookmark@seq@number=\count111
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip48
+)
+Package hyperref Info: Option `linktocpage' set `true' on input line 19.
+Package hyperref Info: Option `colorlinks' set `true' on input line 19.
+
 
 LaTeX Warning: Unused global option(s):
     [pt14].
@@ -120,74 +264,43 @@ LaTeX Warning: Unused global option(s):
 (./IBL3DLGAD_NIM.aux)
 \openout1 = `IBL3DLGAD_NIM.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-Class revtex4 Info: Patching LaTeX tabular. on input line 6.
-Class revtex4 Info: cite was not loaded (OK!) on input line 6.
-Class revtex4 Info: multicol was not loaded (OK!) on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+Class revtex4 Info: Unrecognized array package. Please update this document cla
+ss! (Proceeding with fingers crossed.) on input line 21.
+Class revtex4 Info: cite was not loaded (OK!) on input line 21.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 21.
 
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count101
-\scratchdimen=\dimen109
-\scratchbox=\box36
-\nofMPsegments=\count102
-\nofMParguments=\count103
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count104
-\MPscratchDim=\dimen110
-\MPnumerator=\count105
-\makeMPintoPDFobject=\count106
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count112
+\scratchdimen=\dimen115
+\scratchbox=\box38
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen116
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks21
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-))))
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
@@ -200,180 +313,227 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\AtBeginShipoutBox=\box39
+
+
+Package hyperref Warning: Height of page (\paperheight) is invalid (0.0pt),
+(hyperref)                using 11in.
+
+Package hyperref Info: Link coloring ON on input line 21.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count118
+)
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
+
+(./IBL3DLGAD_NIM.out) (./IBL3DLGAD_NIM.out)
+\@outlinefile=\write3
+\openout3 = `IBL3DLGAD_NIM.out'.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 19.
+(Font)              <9> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 19.
-<figures1/IBL3D_GL.pdf, id=1, 665.52509pt x 375.67351pt>
+(Font)              <6> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 45.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 45.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 49.
+
+[1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<figures1/IBL3D_GL.pdf, id=102, 665.52509pt x 375.67351pt>
 File: figures1/IBL3D_GL.pdf Graphic file (type pdf)
 <use figures1/IBL3D_GL.pdf>
-Package pdftex.def Info: figures1/IBL3D_GL.pdf  used on input line 64.
+Package pdftex.def Info: figures1/IBL3D_GL.pdf  used on input line 67.
 (pdftex.def)             Requested size: 306.00311pt x 172.73738pt.
-
-[1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fig
-ures1/IBL3D_GL.pdf>]
-<figures1/ThinDopingProfile.pdf, id=70, 570.27072pt x 195.48181pt>
+<figures1/ThinDopingProfile.pdf, id=103, 570.27072pt x 195.48181pt>
 File: figures1/ThinDopingProfile.pdf Graphic file (type pdf)
 <use figures1/ThinDopingProfile.pdf>
-Package pdftex.def Info: figures1/ThinDopingProfile.pdf  used on input line 92.
+Package pdftex.def Info: figures1/ThinDopingProfile.pdf  used on input line 96.
 
 (pdftex.def)             Requested size: 249.9028pt x 85.66327pt.
-<figures1/ThickDopingProfile.pdf, id=71, 570.27072pt x 195.48181pt>
+<figures1/ThickDopingProfile.pdf, id=104, 570.27072pt x 195.48181pt>
 File: figures1/ThickDopingProfile.pdf Graphic file (type pdf)
 <use figures1/ThickDopingProfile.pdf>
-Package pdftex.def Info: figures1/ThickDopingProfile.pdf  used on input line 93
+Package pdftex.def Info: figures1/ThickDopingProfile.pdf  used on input line 97
 .
 (pdftex.def)             Requested size: 249.9028pt x 85.66327pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 94.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 94.
-<figures1/ThinThickEfield.pdf, id=72, 798.19763pt x 289.66348pt>
+<figures1/ThinThickEfield.pdf, id=105, 798.19763pt x 289.66348pt>
 File: figures1/ThinThickEfield.pdf Graphic file (type pdf)
 <use figures1/ThinThickEfield.pdf>
-Package pdftex.def Info: figures1/ThinThickEfield.pdf  used on input line 110.
+Package pdftex.def Info: figures1/ThinThickEfield.pdf  used on input line 114.
 (pdftex.def)             Requested size: 408.00156pt x 148.06232pt.
- [2 <./figures1/ThinDopingProfile.pdf> <./figures1/ThickDopingProfile.pdf> <./f
-igures1/ThinThickEfield.pdf>]
-<figures1/Thin_IV_CV_curves.pdf, id=139, 778.15884pt x 295.75423pt>
+
+[2 <./figures1/IBL3D_GL.pdf> <./figures1/ThinDopingProfile.pdf> <./figures1/Thi
+ckDopingProfile.pdf>]
+<figures1/Thin_IV_CV_curves.pdf, id=205, 778.15884pt x 295.75423pt>
 File: figures1/Thin_IV_CV_curves.pdf Graphic file (type pdf)
 <use figures1/Thin_IV_CV_curves.pdf>
-Package pdftex.def Info: figures1/Thin_IV_CV_curves.pdf  used on input line 130
+Package pdftex.def Info: figures1/Thin_IV_CV_curves.pdf  used on input line 134
 .
 (pdftex.def)             Requested size: 408.00156pt x 155.06569pt.
-<figures1/Thick_IV_CV_curves.pdf, id=140, 780.425pt x 287.27376pt>
+<figures1/Thick_IV_CV_curves.pdf, id=206, 780.425pt x 287.27376pt>
 File: figures1/Thick_IV_CV_curves.pdf Graphic file (type pdf)
 <use figures1/Thick_IV_CV_curves.pdf>
 Package pdftex.def Info: figures1/Thick_IV_CV_curves.pdf  used on input line 13
-1.
+5.
 (pdftex.def)             Requested size: 408.00156pt x 150.18536pt.
- [3 <./figures1/Thin_IV_CV_curves.pdf> <./figures1/Thick_IV_CV_curves.pdf>]
-<figures1/Slice.pdf, id=200, 415.75938pt x 286.17575pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures1/Slice.pdf, id=212, 415.75938pt x 286.17575pt>
 File: figures1/Slice.pdf Graphic file (type pdf)
 <use figures1/Slice.pdf>
-Package pdftex.def Info: figures1/Slice.pdf  used on input line 149.
+Package pdftex.def Info: figures1/Slice.pdf  used on input line 153.
 (pdftex.def)             Requested size: 203.99689pt x 140.4151pt.
-<figures1/MIP_current_evolution_ABC.pdf, id=201, 828.09375pt x 451.6875pt>
+[3 <./figures1/ThinThickEfield.pdf>]
+<figures1/MIP_current_evolution_ABC.pdf, id=249, 828.09375pt x 451.6875pt>
 File: figures1/MIP_current_evolution_ABC.pdf Graphic file (type pdf)
 <use figures1/MIP_current_evolution_ABC.pdf>
 Package pdftex.def Info: figures1/MIP_current_evolution_ABC.pdf  used on input 
-line 158.
+line 162.
 (pdftex.def)             Requested size: 408.00156pt x 222.54872pt.
- [4 <./figures1/Slice.pdf> <./figures1/MIP_current_evolution_ABC.pdf>]
-<figures1/MIP-ABC-CCE-new.pdf, id=259, 872.25874pt x 343.2825pt>
+ [4 <./figures1/Thin_IV_CV_curves.pdf> <./figures1/Thick_IV_CV_curves.pdf> <./f
+igures1/Slice.pdf>]
+<figures1/MIP-ABC-CCE-new.pdf, id=325, 872.25874pt x 343.2825pt>
 File: figures1/MIP-ABC-CCE-new.pdf Graphic file (type pdf)
 <use figures1/MIP-ABC-CCE-new.pdf>
-Package pdftex.def Info: figures1/MIP-ABC-CCE-new.pdf  used on input line 171.
+Package pdftex.def Info: figures1/MIP-ABC-CCE-new.pdf  used on input line 175.
 (pdftex.def)             Requested size: 484.49844pt x 190.67593pt.
-<figures1/Shaped_pulses_new.pdf, id=260, 909.3975pt x 372.39125pt>
+ [5 <./figures1/MIP_current_evolution_ABC.pdf> <./figures1/MIP-ABC-CCE-new.pdf>
+]
+<figures1/Shaped_pulses_new.pdf, id=384, 909.3975pt x 372.39125pt>
 File: figures1/Shaped_pulses_new.pdf Graphic file (type pdf)
 <use figures1/Shaped_pulses_new.pdf>
-Package pdftex.def Info: figures1/Shaped_pulses_new.pdf  used on input line 180
+Package pdftex.def Info: figures1/Shaped_pulses_new.pdf  used on input line 184
 .
 (pdftex.def)             Requested size: 458.99689pt x 187.95665pt.
- [5 <./figures1/MIP-ABC-CCE-new.pdf> <./figures1/Shaped_pulses_new.pdf>]
-<figures1/Table_toa50.pdf, id=294, 845.1575pt x 597.23125pt>
+<figures1/Table_toa50.pdf, id=388, 845.1575pt x 597.23125pt>
 File: figures1/Table_toa50.pdf Graphic file (type pdf)
 <use figures1/Table_toa50.pdf>
-Package pdftex.def Info: figures1/Table_toa50.pdf  used on input line 192.
+Package pdftex.def Info: figures1/Table_toa50.pdf  used on input line 196.
 (pdftex.def)             Requested size: 306.00311pt x 216.24245pt.
-<figures1/ToA50_vs_distance.pdf, id=295, 796.9775pt x 374.39874pt>
+ [6 <./figures1/Shaped_pulses_new.pdf> <./figures1/Table_toa50.pdf>]
+<figures1/ToA50_vs_distance.pdf, id=438, 796.9775pt x 374.39874pt>
 File: figures1/ToA50_vs_distance.pdf Graphic file (type pdf)
 <use figures1/ToA50_vs_distance.pdf>
-Package pdftex.def Info: figures1/ToA50_vs_distance.pdf  used on input line 205
+Package pdftex.def Info: figures1/ToA50_vs_distance.pdf  used on input line 209
 .
 (pdftex.def)             Requested size: 377.4028pt x 177.29282pt.
- [6 <./figures1/Table_toa50.pdf> <./figures1/ToA50_vs_distance.pdf>]
-<figures1/ToA50_vs_GLdoping.pdf, id=343, 378.41376pt x 393.47pt>
+<figures1/ToA50_vs_GLdoping.pdf, id=442, 378.41376pt x 393.47pt>
 File: figures1/ToA50_vs_GLdoping.pdf Graphic file (type pdf)
 <use figures1/ToA50_vs_GLdoping.pdf>
-Package pdftex.def Info: figures1/ToA50_vs_GLdoping.pdf  used on input line 219
+Package pdftex.def Info: figures1/ToA50_vs_GLdoping.pdf  used on input line 223
 .
 (pdftex.def)             Requested size: 203.99689pt x 212.1164pt.
-<figures1/NewChargeFraction.pdf, id=344, 670.505pt x 449.68pt>
+<figures1/NewChargeFraction.pdf, id=444, 670.505pt x 449.68pt>
 File: figures1/NewChargeFraction.pdf Graphic file (type pdf)
 <use figures1/NewChargeFraction.pdf>
-Package pdftex.def Info: figures1/NewChargeFraction.pdf  used on input line 239
+Package pdftex.def Info: figures1/NewChargeFraction.pdf  used on input line 244
 .
 (pdftex.def)             Requested size: 408.00156pt x 273.62509pt.
- [7 <./figures1/ToA50_vs_GLdoping.pdf>]
-<figures/Electric_field_IBLGAD5E_summary.pdf, id=358, 569.12625pt x 408.52625pt
+ [7 <./figures1/ToA50_vs_distance.pdf>] [8 <./figures1/ToA50_vs_GLdoping.pdf> <
+./figures1/NewChargeFraction.pdf>]
+<figures/Electric_field_IBLGAD5E_summary.pdf, id=500, 569.12625pt x 408.52625pt
 >
 File: figures/Electric_field_IBLGAD5E_summary.pdf Graphic file (type pdf)
 <use figures/Electric_field_IBLGAD5E_summary.pdf>
 Package pdftex.def Info: figures/Electric_field_IBLGAD5E_summary.pdf  used on i
-nput line 259.
+nput line 266.
 (pdftex.def)             Requested size: 235.2041pt x 168.83707pt.
-<figures/Anatiming_timing3DIBLGAD5E_Plots_TotalChargeGLdoping.pdf, id=359, 569.
+<figures/Anatiming_timing3DIBLGAD5E_Plots_TotalChargeGLdoping.pdf, id=501, 569.
 12625pt x 408.52625pt>
 File: figures/Anatiming_timing3DIBLGAD5E_Plots_TotalChargeGLdoping.pdf Graphic 
 file (type pdf)
 <use figures/Anatiming_timing3DIBLGAD5E_Plots_TotalChargeGLdoping.pdf>
 Package pdftex.def Info: figures/Anatiming_timing3DIBLGAD5E_Plots_TotalChargeGL
-doping.pdf  used on input line 260.
+doping.pdf  used on input line 267.
 (pdftex.def)             Requested size: 235.2041pt x 168.83707pt.
-<figures/Anatiming_timing3DIBLGAD5E_Plots_V175.pdf, id=360, 569.12625pt x 408.5
+<figures/Anatiming_timing3DIBLGAD5E_Plots_V175.pdf, id=502, 569.12625pt x 408.5
 2625pt>
 File: figures/Anatiming_timing3DIBLGAD5E_Plots_V175.pdf Graphic file (type pdf)
 
 <use figures/Anatiming_timing3DIBLGAD5E_Plots_V175.pdf>
 Package pdftex.def Info: figures/Anatiming_timing3DIBLGAD5E_Plots_V175.pdf  use
-d on input line 268.
+d on input line 275.
 (pdftex.def)             Requested size: 168.0pt x 120.59523pt.
-<figures/Anatiming_timing3DIBLGAD5E_Plots_rawTOA50GLdoping.pdf, id=361, 569.126
+<figures/Anatiming_timing3DIBLGAD5E_Plots_rawTOA50GLdoping.pdf, id=503, 569.126
 25pt x 408.52625pt>
 File: figures/Anatiming_timing3DIBLGAD5E_Plots_rawTOA50GLdoping.pdf Graphic fil
 e (type pdf)
 <use figures/Anatiming_timing3DIBLGAD5E_Plots_rawTOA50GLdoping.pdf>
 Package pdftex.def Info: figures/Anatiming_timing3DIBLGAD5E_Plots_rawTOA50GLdop
-ing.pdf  used on input line 269.
+ing.pdf  used on input line 276.
 (pdftex.def)             Requested size: 168.0pt x 120.59523pt.
-<figures/Anatiming_timing3DIBLGAD5E_Plots_corTOA50GLdoping.pdf, id=362, 569.126
+<figures/Anatiming_timing3DIBLGAD5E_Plots_corTOA50GLdoping.pdf, id=504, 569.126
 25pt x 408.52625pt>
 File: figures/Anatiming_timing3DIBLGAD5E_Plots_corTOA50GLdoping.pdf Graphic fil
 e (type pdf)
 <use figures/Anatiming_timing3DIBLGAD5E_Plots_corTOA50GLdoping.pdf>
 Package pdftex.def Info: figures/Anatiming_timing3DIBLGAD5E_Plots_corTOA50GLdop
-ing.pdf  used on input line 270.
+ing.pdf  used on input line 277.
 (pdftex.def)             Requested size: 168.0pt x 120.59523pt.
- [8 <./figures1/NewChargeFraction.pdf> <./figures/Electric_field_IBLGAD5E_summa
-ry.pdf, page is rotated 90 degrees> <./figures/Anatiming_timing3DIBLGAD5E_Plots
-_TotalChargeGLdoping.pdf, page is rotated 90 degrees>] (./IBL3DLGAD_NIM.bbl) [9
- <./figures/Anatiming_timing3DIBLGAD5E_Plots_V175.pdf, page is rotated 90 degre
-es> <./figures/Anatiming_timing3DIBLGAD5E_Plots_rawTOA50GLdoping.pdf, page is r
-otated 90 degrees> <./figures/Anatiming_timing3DIBLGAD5E_Plots_corTOA50GLdoping
-.pdf, page is rotated 90 degrees>] (./IBL3DLGAD_NIM.aux) ) 
+[9 <./figures/Electric_field_IBLGAD5E_summary.pdf, page is rotated 90 degrees> 
+<./figures/Anatiming_timing3DIBLGAD5E_Plots_TotalChargeGLdoping.pdf, page is ro
+tated 90 degrees> <./figures/Anatiming_timing3DIBLGAD5E_Plots_V175.pdf, page is
+ rotated 90 degrees> <./figures/Anatiming_timing3DIBLGAD5E_Plots_rawTOA50GLdopi
+ng.pdf, page is rotated 90 degrees> <./figures/Anatiming_timing3DIBLGAD5E_Plots
+_corTOA50GLdoping.pdf, page is rotated 90 degrees>] (./IBL3DLGAD_NIM.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 319.
+
+[10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 319.
+ (./IBL3DLGAD_NIM.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 319.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 319.
+Package rerunfilecheck Info: File `IBL3DLGAD_NIM.out' has not changed.
+(rerunfilecheck)             Checksum: DF6159CC2F007876C91958B502D59C43;683.
+ ) 
 Here is how much of TeX's memory you used:
- 3327 strings out of 492616
- 48026 string characters out of 6129482
- 120920 words of memory out of 5000000
- 7213 multiletter control sequences out of 15000+600000
- 6543 words of font info for 24 fonts, out of 8000000 for 9000
+ 7392 strings out of 492616
+ 107762 string characters out of 6129482
+ 219406 words of memory out of 5000000
+ 11192 multiletter control sequences out of 15000+600000
+ 8457 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,5n,25p,734b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2
-019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/20
-19/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2019
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2019/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2019/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2019/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2019/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2019/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmtt9.pfb>
-Output written on IBL3DLGAD_NIM.pdf (9 pages, 1470742 bytes).
+ 32i,8n,35p,1184b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
+l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/
+texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
+2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2019/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2019/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2019/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on IBL3DLGAD_NIM.pdf (10 pages, 1534324 bytes).
 PDF statistics:
- 652 PDF objects out of 1000 (max. 8388607)
- 390 compressed objects within 4 object streams
- 0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 825 PDF objects out of 1000 (max. 8388607)
+ 554 compressed objects within 6 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 192 words of extra memory for PDF output out of 10000 (max. 10000000)
 

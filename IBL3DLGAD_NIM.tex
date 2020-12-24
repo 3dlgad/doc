@@ -1,12 +1,26 @@
 \RequirePackage{lineno}
-\documentclass[aps,pt14,superscriptaddress,showpacs,floatfix,nofootinbib]{revtex4}
+\documentclass[aps,pt14,superscriptaddress,floatfix,nofootinbib]{revtex4}
 %preprint
 \usepackage{graphicx}
 %\linenumbers
 
+\usepackage[pdftex,table]{xcolor}
+\definecolor{darkpurple}{rgb}{0.5, 0.2, 0.8}
+\definecolor{darkblue}{rgb}{0.0, 0.0, 0.8}
+\definecolor{darkgreen}{rgb}{0.0, 0.4, 0.0}
+\definecolor{darkred}{rgb}{0.5, 0.0, 0.0}
+\usepackage{hyperref}
+\hypersetup{
+    linktocpage,
+     colorlinks,
+     citecolor=darkgreen,
+     linkcolor= darkgreen,
+     urlcolor=darkgreen
+}
+
 \begin{document}
 
-\title{Simulation of 3D-Silicon sensor with a Low-Gain \\ Avalanche Diode (LGAD) for a fast timing pixel detector}
+\title{Simulation of 3D-Silicon sensor with a Low-Gain \\ Avalanche Diode (LGAD) for a Fast Timing Pixel Detector}
 
 \author{Gilberto Giugliarelli}
 \email{gilberto.giugliarelli@cern.ch}
@@ -21,17 +35,10 @@
 \affiliation{Physics Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA}
 
 \begin{abstract}
-Presently, the silicon
-pixel detector either has no proper timing or has proper timing, but with a
-pixel size at the mm level, too large for precision tracking.
-The 3D-sensor has excellent spatial resolution and it could potentially be a fast timing detector with a timing
-resolution of $\approx$30~ps as demonstrated by the recent study.
-In this study, we present some preliminary results on the 3D-LGAD sensor based TCAD simulation, which
-could improve the signal-to-noise ratio to achieve a better timing resolution.
-We aim to develop a truly 4-D silicon pixel detector with 3D sensor with both a spatial
-resolution of $\approx 10~\mu m$ and a timing resolution of $\approx$30~ps
-that  will open a new era for precision tracking, reducing pile-up
-events and particle identification for the future colliding experiment.
+Current silicon pixel detectors are either highly granular in space ($\mathcal{O}(10)$ $\mu$m), but imprecise in time ($\mathcal{O}(1)$ ns) or achieve precision timing ($\mathcal{O}(10)$ ps), but are spatially coarse ($\mathcal{O}(1)$ mm).   The 3D pixel sensor holds great potential to achieve both precise timing resolution and precise spatial resolution.  
+%Presently, silicon pixel detectors either do not achieve precise timing or has proper timing, but with a pixel size at the mm level, too large for precision tracking. The 3D-sensor has excellent spatial resolution and it could potentially be a fast timing detector with a timing resolution of $\approx$30~ps as demonstrated by the recent study.
+Planar sensors have achieved precision timing from the addition of a gain layer.  In this study, we investigate the use of a gain component in 3D sensors to further enhance their timing capabilities.  Our analysis uses Technology Computer Aided Design (TCAD) simulations to quantify the potential for a 3D-LGAD sensor to improve the signal-to-noise ratio of a traditional 3D sensor in order to improve the timing resolution.  We find that BLAH. \textit{Should be something like: While the addition of a gain layer does blah, the slow collection times of holes in the avalanche degrades the timing resolution.  Therefore, without further innovation, there is no evidence for a significant gain from combining LGADs with 3D sensors.}
+%In this study, we present some preliminary results on the 3D-LGAD sensor based TCAD simulation, which could improve the signal-to-noise ratio to achieve a better timing resolution. We aim to develop a truly 4-D silicon pixel detector with 3D sensor with both a spatial resolution of $\approx 10~\mu m$ and a timing resolution of $\approx$30~ps that  will open a new era for precision tracking, reducing pile-up events and particle identification for the future colliding experiment.
 \end{abstract}
 
 \date{\today}
@@ -39,37 +46,20 @@ events and particle identification for the future colliding experiment.
 
 \section{Introduction}
 
-Silicon detectors provide at present the most precise tracking for charged
-particles in high energy physics experiments. They have an excellent space
-point resolution and granularity to cope track separation in dense jets and
-hits from the high luminosity beam related background.
-The recent developments of a new silicon sensor based on Low-Gain Avalanche
-Diodes (LGAD) provide a significantly enhanced capability to measure
-track arrival times with a resolution of $\approx$30~ps, which allows for tracks to be 
-separated from pile-up events and particle identification. Presently, the silicon
-pixel detector either has no proper timing or has proper timing, but with a  
-pixel size at the mm level, too large for precision tracking.
+Silicon pixel detectors provide at present the most precise tracking for charged particles in high energy physics experiments. They have an excellent space point resolution to identify displaced decays and resolve nearby particles in the dense core of hadronic jets; they also are granular enough to have a low occupancy despite the intense luminosity of the Large Hadron Collider (LHC).    However, the high-luminosity upgrade of the LHC (HL-LHC) and of future colliders will impose a significant challenge for tracking detector occupancies.  In particular, a given bunch crossing of the LHC will correspond to hundreds of individual $pp$ collisions (pileup) on top of the collision of interest. One potential solution\footnote{There are other software-based solutions as well - see e.g. Ref.~\cite{2012.04533}.} is to augment tracking with precision timing information, which can be used to identify hits originating from the wrong collision~\cite{Sadrozinski:2017qpv,CERN-LHCC-2017-027,CERN-LHCC-2018-023}.  Existing silicon pixels achieve ($\mathcal{O}(10)$ $\mu$m) spatial resolution, but imprecise time resolution ($\mathcal{O}(1)$ ns).
 
-The 3D sensor was first introduced in 1997 by S. Parker et al.~\cite{Parker:1996dx}.
-It decouples the electrode distance from the active substrate
-thickness providing several superior features, which makes it more radiation hard,
-and fast charge collection compared to the planar sensor.
-The first application of 3D sensors was successfully installed for
-the ATLAS Insertable B-Layer (IBL), and the sensor design has been
-further improved for the HL-LHC developed by CNM~\cite{Pellegrini:2008zza}
-and FBK~\cite{Sultan:2016vzg}.
-The recent study with a small cell 3D sensor demonstrated that it
-could potentially be a fast timing detector with a resolution
-of $\approx$30~ps~\cite{Kramberger:2019ygz}.
+A new type of pixel detector has recently emerged to address the timing deficiency of existing detectors.   In particular, a low-gain layer is added near the pixel implant in order to introduce a charge avalanche.  These Low-Gain Avalanche Diode (LGAD) detectors have a demonstrated time resolution of about 30 ps.  However, these detectors  are too large ($\mathcal{O}(1)$ mm) to simultaneously provide precise spatial resolution.  As a result, ATLAS and CMS are only planning on using them in a layer well beyond the inner tracking detectors composed of more traditional silicon pixels.
 
-The idea proposed here is to develop a new type of 3D sensor with internal
-charge multiplication by adding a thin low-resistivity diffusion gain layer surrounding
-the readout electrode with a highly doped implant.
-The thin layer will enhance the high electric field to cause multiplication of
-charge carries that transverse the region, which will improve the signal-to-noise ratio to
-achieve a timing resolution better than $\approx$30~ps.
-From a simple calculation, the gain is similar to what obtained
-in the planar LGAD detector.
+%The recent developments of a new silicon sensor based on Low-Gain Avalanche Diodes (LGAD) provide a significantly enhanced capability to measure track arrival times with a resolution of $\approx$30~ps, which allows for tracks to be separated from pile-up events and particle identification. Presently, the silicon pixel detector either has no proper timing or has proper timing, but with a pixel size at the mm level, too large for precision tracking.
+
+One possible solution to connect precise timing with precise spatial resolution is the 3D sensor~\cite{Parker:1996dx}.   In contrast to traditional planar sensors, 3D sensors have columnar electrodes that go through the sensor bulk.  This setup decouples the electrode distance from the active substrate thickness providing radiation hardness and fast charge collection compared to the planar sensor.  The first application of 3D sensors was successfully installed for the ATLAS Insertable B-Layer (IBL)~\cite{Abbott:2018ikt}, and the sensor design has been further improved for the HL-LHC developed by CNM~\cite{Pellegrini:2008zza} and FBK~\cite{Sultan:2016vzg}. The recent study with a small cell 3D sensor demonstrated that it could potentially be a fast timing detector with a resolution of about 30~ps~\cite{Kramberger:2019ygz}.
+
+%The 3D sensor was first introduced in 1997 by S. Parker et al.~\cite{Parker:1996dx}. It decouples the electrode distance from the active substrate thickness providing several superior features, which makes it more radiation hard, and fast charge collection compared to the planar sensor.
+%The first application of 3D sensors was successfully installed for the ATLAS Insertable B-Layer (IBL), and the sensor design has been further improved for the HL-LHC developed by CNM~\cite{Pellegrini:2008zza} and FBK~\cite{Sultan:2016vzg}. The recent study with a small cell 3D sensor demonstrated that it could potentially be a fast timing detector with a resolution of $\approx$30~ps~\cite{Kramberger:2019ygz}.
+
+In this paper, we study the possibility of improving the timing resolution of 3D detectors by combining them with a gain layer as in planar LGAD detectors.  This technology proposal is called a 3D-LGAD sensor.  In particular, we investigate the potential of internal charge multiplication by adding a thin low-resistivity diffusion gain layer surrounding the readout electrode with a highly doped implant. The thin layer will enhance the high electric field to cause multiplication of charge carries that transverse the region, which could improve the signal-to-noise ratio to achieve a timing resolution better than 30~ps.  %From a simple calculation, the gain is similar to what obtained in the planar LGAD detector.
+
+This paper is organized as follows.  Section~\ref{sec:lgad} introduces the 3D-LGAD concept.  Then, Sec.~\ref{sec:sim} describes numerical simulations of 3D-LGAD detectors.  A brief discussion of challenges appears in Sec.~\ref{sec:discussion} and the paper concludes in Sec.~\ref{sec:conclusion}.
 
 %\begin{figure}[h!tp]
 \begin{figure}[h!]
@@ -81,6 +71,7 @@ in the planar LGAD detector.
 \end{figure}
 
 \section{LGAD}
+\label{sec:lgad}
 
 The planar LGAD detector has a gain layer that contains high electric field to
 cause multiplication of charge carries that transverse the region.
@@ -240,6 +231,7 @@ However, more studies are need to understand better the avalanche process in TCA
 level of the front end electronics.   
 
 \section{Monte Carlo Simulations}
+\label{sec:sim}
 
 In alternative to TCAD simulation, charge collection properties of our prototype sensor have been evaluated also by a Monte Carlo approach. In this approach, making use of the electric field maps of the sensor from TCAD, drift paths of electrons and holes generated by a MIP can be calculated (also including thermal diffusion). 
 
@@ -256,6 +248,8 @@ We have verified that the avalanches at the GL can be simulated also with this a
 
 
 \section{Alternative studies with KDetSim} 
+
+\textbf{should this be an appendix instead?  --bpn}
 
 We also performed the studies using KDetSim~\cite{kdetsim} to simulate the charge collection in the proposed 3D-GLAD sensor.
 The charge drift is simulated in steps with diffusion, impact ionization, and trapping also taken into account and  
@@ -286,7 +280,8 @@ after (right) the drift-time corrections.~\label{fig:kdettoa}}
 \end{center}
 \end{figure}
 
-\section{Challengs} 
+\section{Discussion}
+\label{sec:discussion} 
 
 The 3D-LGAD sensor could be difficult to
 produce in large-scale due to the challenges of properly doping the electrodes.
@@ -302,6 +297,7 @@ a timing resolution of 20~ps, but its pixel size is 1.3~mm x 1.3~mm,
 too large for precision tracking~\cite{delaTaille:2018qap}.
 
 \section{Conclusion}
+\label{sec:conclusion} 
 
 In this study, we present some preliminary results on the 3D-LGAD sensor based TCAD simulation, which
 could improve the signal-to-noise ratio to achieve a better timing resolution.
